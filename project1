@@ -1,0 +1,10 @@
+# problem 1: For finding the area of a circle
+from math import pi
+rad=float(input("Enter the radius of the circle:"))
+area=pi*rad**2
+print("The area of the circle with radius",rad,"is",area)
+
+# problem 2: To accept a filename from the user and pirnt the extension of that file
+filename=input("Enter the file name:")
+fextns=filename.split(".")
+print("The extension of the file is:"+repr(fextns[-1]))
